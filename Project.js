@@ -108,14 +108,17 @@ const getWinnings=(rows,betAmount,lines)=>{
         let allSame=true;
 
         for(const symbol of symbols){
-            if(symbols!=symbols[0]){
+            if(symbol!=symbols[0]){
                 allSame=false;
                 break;
             }
         }
 
-        if(allSame){
-            winnings+=betAmount*SYMBOLS_VALUES[symbols[0]]
+       if(allSame){
+            const winningSymbol=symbols[0];
+            const multiplier=SYMBOLS_VALUES[winningSymbol];
+            winnings+=betAmount*multiplier;
+            
         }
     }
     return winnings
@@ -144,4 +147,5 @@ const playAgain=prompt("Do you want to play again (y/n)? ");
 if(playAgain!="y") break;
 }
 };
+
 game();
