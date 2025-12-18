@@ -1,4 +1,4 @@
-# 🎰 Node.js CLI Slot Machine
+# 🎰 Node.js Slot Machine
 
 A fully functional, text-based slot machine game built with JavaScript. This project simulates a real-world gambling mechanic where users can deposit virtual currency, place bets on multiple lines, and win based on symbol combinations and their respective values.
 
