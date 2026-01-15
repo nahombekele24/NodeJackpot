@@ -39,7 +39,7 @@ To run this project locally, you need [Node.js](https://nodejs.org/) installed o
     ```
 4.  **Run the game:**
     ```bash
-    node index.js
+    node project.js
     ```
 5.  Follow the on-screen instructions to start spinning!
 
